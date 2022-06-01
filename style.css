@@ -36,7 +36,7 @@ html {
 .chatbox__support {
     display: flex;
     flex-direction: column;
-    background: rgb(139, 67, 67);
+    background: #eee;
     width: 300px;
     height: 350px;
     z-index: -123456;
