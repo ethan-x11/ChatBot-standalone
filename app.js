@@ -25,7 +25,7 @@ class Chatbox {
         })
     }
 
-    
+
 
     // toggleState(chatbox) {
     //     this.state = !this.state;
@@ -87,9 +87,9 @@ class Chatbox {
     }
 }
 
-let csbtn=document.querySelector('#btn');
-let cs=document.querySelector('.chatbox__support');
-csbtn.addEventListener('click',() =>{
+let csbtn = document.querySelector('#btn');
+let cs = document.querySelector('.chatbox__support');
+csbtn.addEventListener('click', () => {
     csbtn.classList.toggle('#btn');
     cs.classList.toggle('active');
 })
