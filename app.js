@@ -25,16 +25,18 @@ class Chatbox {
         })
     }
 
-    toggleState(chatbox) {
-        this.state = !this.state;
+    
 
-        // show or hides the box
-        if (this.state) {
-            chatbox.classList.add('chatbox--active')
-        } else {
-            chatbox.classList.remove('chatbox--active')
-        }
-    }
+    // toggleState(chatbox) {
+    //     this.state = !this.state;
+
+    //     // show or hides the box
+    //     if (this.state) {
+    //         chatbox.classList.add('chatbox--active')
+    //     } else {
+    //         chatbox.classList.remove('chatbox--active')
+    //     }
+    // }
 
     onSendButton(chatbox) {
         var textField = chatbox.querySelector('input');
@@ -85,6 +87,11 @@ class Chatbox {
     }
 }
 
-
+let csbtn=document.querySelector('#btn');
+let cs=document.querySelector('.chatbox__support');
+csbtn.addEventListener('click',() =>{
+    csbtn.classList.toggle('#btn');
+    cs.classList.toggle('active');
+})
 const chatbox = new Chatbox();
 chatbox.display();
