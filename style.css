@@ -32,22 +32,6 @@ html {
     right: 30px;
 }
 
-eader .searchbar-container{
-    position: absolute;
-    top:100%;      
-    left:0;
-    right:0;
-    padding:1.5rem 2rem;
-    background: linear-gradient(45deg,rgb(172, 208, 248),rgb(255, 167, 196)); 
-    border-top: .2rem solid transparent;
-    display: flex;
-    align-items: center;
-    z-index: 1001;
-    clip-path: polygon(0 0,100% 0,100% 0,0 0);
-}
-
-header .searchbar-container.active{
-    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
 }
 /* CONTENT IS CLOSE */
 
